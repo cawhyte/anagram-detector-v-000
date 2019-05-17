@@ -1,5 +1,5 @@
 
-Class Anagram  # this is how I create a class so that I can access this method later
+class Anagram  # this is how I create a class so that I can access this method later
 
 attr_accessor :word # this allows me to access the word method and create instances of it
 
@@ -12,3 +12,4 @@ letters.select do |element|
   (@word.split("").sort) == (element.split("").sort)
     end
   end
+end
